@@ -15,7 +15,7 @@ function useEscape(cb) {
     }
     window.addEventListener("keydown", handleKey);
     return () => window.removeEventListener("keydown", handleKey);
-  }, []);
+  }, [cb]);
 }
 
 export default useEscape;
