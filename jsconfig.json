@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "allowArbitraryExtensions": true,
+    "target": "es6",
+    "checkJs": true,
+    "jsx": "react",
+    "skipLibCheck": true,
+    "strict": false
+  },
+  "exclude": ["node_modules"]
+}
